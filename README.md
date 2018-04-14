@@ -6,10 +6,14 @@
 
 利用图像识别对下一跳盒子进行边缘检测（图1）和跳棋的模板匹配（图2），
 
+![1](http://https://github.com/mohanyu/Photos_URL_for_Readme/blob/master/img-for-wechatjump/2.jpg"图一") 
+![2](http://https://github.com/mohanyu/Photos_URL_for_Readme/blob/master/img-for-wechatjump/1.jpg"图二") 
 得出两者的距离（图3），
+![3](https://github.com/mohanyu/Photos_URL_for_Readme/blob/master/img-for-wechatjump/3.jpg"图三") 
 
 计算对应分辨率下的按压系数
-
+![4](https://github.com/mohanyu/Photos_URL_for_Readme/blob/master/img-for-wechatjump/3.jpg"图4") 
+![5](https://github.com/mohanyu/Photos_URL_for_Readme/blob/master/img-for-wechatjump/S80415-01314648.jpg"图5") 
 ，通过USB调试，让手机模拟出按压时间，实现蓄力跳跃
 
 
