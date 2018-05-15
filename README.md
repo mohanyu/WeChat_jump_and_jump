@@ -1,8 +1,5 @@
-WeChat_jump_and_jump
+WeChat_jump_and_jump/微信跳一跳，一键自动化，刷分工具
 ===========================
-微信跳一跳，一键自动化，刷分工具
-------
-
 
 __如标题所言，可以用最简单、直接的方式，实现微信跳一跳的刷分__
 - [x] 即便是菜鸟小白
@@ -15,17 +12,17 @@ __如标题所言，可以用最简单、直接的方式，实现微信跳一跳
 
 **本文贴心到什么程度呢？**
 
-what？都不会用GitHub下载本项目？:flushed:
+> what？都不会用GitHub下载本项目？:flushed:
 
-:sparkles:[点击通过网盘下载本程序](https://share.weiyun.com/59HxPQA "悬停显示"):heart:
+>>>  :sparkles:[点击通过网盘下载本程序](https://share.weiyun.com/59HxPQA "悬停显示"):heart:
 
 
 #### 执行此程序遇到问题？
-  |1|     [E-mail](mohanyu6@gmail.com "墨瀚宇")
+>>>    |1|     [E-mail](mohanyu6@gmail.com "墨瀚宇")
   
-  |2|     [我的个人网站](http://www.mohanyu.club "墨瀚宇")
+>>>   |2|     [我的个人网站](http://www.mohanyu.club "墨瀚宇")
 
-  |3|     [我的知乎](https://www.zhihu.com/people/mo-han-yu-10/activities)
+>>>   |3|     [我的知乎](https://www.zhihu.com/people/mo-han-yu-10/activities)
 
 # 思路详解:
 * 通过Android Debug Bridge对手机截屏，
@@ -46,7 +43,7 @@ what？都不会用GitHub下载本项目？:flushed:
 ####
 * 通过USB调试，让手机模拟出按压时间，实现蓄力跳跃
 ####
-具体代码实现请：
+__具体代码实现请：__
 :arrow_right:
  [点击查看原项目地址](https://github.com/wangshub/wechat_jump_game)
 
@@ -81,7 +78,7 @@ what？都不会用GitHub下载本项目？:flushed:
 5. 看提示，键盘按任意键继续！
     想停止刷分，关闭此黑色窗口！
 
-##### 6.苹果手机看这里
+#### 6.苹果手机看这里
 * 你需要 下载！ 后  解压!  这个压缩包（右击此压缩包——解压到当前文件）
 
 - 由于苹果的开发者工具需要付费（好吧，我承认事实是我没学习ios的编程），所以你需要一款安卓模拟器！
@@ -108,12 +105,8 @@ what？都不会用GitHub下载本项目？:flushed:
 - 尽量别超过1000分
 
 #### 最后的最后：
-##### 使用过程有什么问题请反馈
-|1||[我的个人网站](http://www.mohanyu.club "悬停显示")|
-
-|2||[我的知乎](https://www.zhihu.com/people/mo-han-yu-10/activities)|
-	
     end：如果你的电脑是苹果的MAC系统的话，我很抱歉你看到了这里。。。。。。
+####    
 |Author|墨瀚宇|
 |---|---
 |E-mail|mohanyu6@gmail.com
