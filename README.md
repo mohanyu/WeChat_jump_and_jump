@@ -1,33 +1,42 @@
-#WeChat_jump_and_jump
+WeChat_jump_and_jump
 ===========================
-# 微信跳一跳，一键自动化，刷分工具
+微信跳一跳，一键自动化，刷分工具
 ------
 
 
-    如标题所言，可以用最简单的方式，实现微信跳一跳的刷分，不需要自己安装  python和环境配置、Android Debug Bridge、和任何的第三方库类，36位和64位的系统通用，而且通过借助第三方模拟器，实现苹果用户的刷分
-
+__如标题所言，可以用最简单的方式，实现微信跳一跳的刷分（即便是菜鸟小白）
+    不需要自己安装  python和环境配置、Android Debug Bridge、和任何的第三方库类，
+    36位和64位的系统通用，而且通过借助第三方模拟器，实现苹果用户的刷分__
 ****
+**本文贴心到什么程度呢？**
+what？都不会用GitHub下载本项目？:flushed:
+
+:sparkles:[点击通过网盘下载本程序](https://share.weiyun.com/59HxPQA "悬停显示"):sparkles:
+
 
 |Author|墨瀚宇|
 |---|---
 |E-mail|mohanyu6@gmail.com
 
+|2| [我的个人网站](http://www.mohanyu.club "悬停显示")
 
-
+|3| [我的知乎](https://www.zhihu.com/people/mo-han-yu-10/activities)
 
 # 思路详解:
 * 通过Android Debug Bridge对手机截屏，
 
 - 利用图像识别对下一跳盒子进行边缘检测（图1）和跳棋的模板匹配（图2），
-
+####
 ![1](https://github.com/mohanyu/Photos_URL_for_Readme/blob/master/img-for-wechatjump/1.jpg)
 ####
 ![2](https://github.com/mohanyu/Photos_URL_for_Readme/blob/master/img-for-wechatjump/2.jpg)
 ####
-- 得出两者的距离（图3），
+- 得出两者的距离（图3）
+####
 ![3](https://github.com/mohanyu/Photos_URL_for_Readme/blob/master/img-for-wechatjump/3.jpg)
 ####
 - 计算对应分辨率下的按压系数
+####
 ![4](https://github.com/mohanyu/Photos_URL_for_Readme/blob/master/img-for-wechatjump/6.jpg)
 ####
 * 通过USB调试，让手机模拟出按压时间，实现蓄力跳跃
@@ -50,32 +59,22 @@
 ## 具体运行步骤如下：
 
 1. 你需要 下载！ 后  解压!  这个压缩包（右击此压缩包——解压到当前文件）
-
-
 2. 安卓手机打开 USB 调试，设置 > 开发者选项 > USB 调试
-	
 	（如果找不到请百度，比如手机品牌是：小米，型号是：note3，
 	 那么百度一下：小米Note3怎样开启开发者模式？
-
 	 另提醒：小米手机除了 USB 调试，还要打开下方的》》》USB 调试（安全）；
 		 vivo手机需要开启》》》USB模拟点击	
-
 3. 使用手机USB线连接电脑与手机
-
     （确保连接后，手机上不要选择——仅充电——，而是——可通过电脑传输文件（MTP））
      之后，手机打开微信跳一跳 —— 点击开始游戏 
-
 4. 电脑打开解压后的jump文件夹，   右击 run_with_admin.bat ——以管理员的身份运行（A）！
-
 	tip：如果手机弹出显示   USB 授权，请点击确认！
 
 5. 看提示，键盘按任意键继续！
-	
     想停止刷分，关闭此黑色窗口！
 
-
 ### 6.苹果手机看这里
-*你需要 下载！ 后  解压!  这个压缩包（右击此压缩包——解压到当前文件）
+* 你需要 下载！ 后  解压!  这个压缩包（右击此压缩包——解压到当前文件）
 
 - 由于苹果的开发者工具需要付费（好吧，我承认事实是我没学习ios的编程），所以你需要一款安卓模拟器！
 	  
@@ -107,8 +106,9 @@
 
 
 #### 最后的最后：
-    使用过程有什么问题请反馈
-|1|`[我的个人网站](http://www.mohanyu.club "悬停显示")`|[我的个人网站](hhttp://www.mohanyu.club "悬停显示")|
-|2|`[我的知乎][https://www.zhihu.com/people/mo-han-yu-10/activities] `|[我的知乎][https://www.zhihu.com/people/mo-han-yu-10/activities] |
+##### 使用过程有什么问题请反馈
+|1||[我的个人网站](http://www.mohanyu.club "悬停显示")|
+
+|2||[我的知乎](https://www.zhihu.com/people/mo-han-yu-10/activities)|
 	
-end：如果你的电脑是苹果的MAC系统的话，我很抱歉你看到了这里。。。。。。
+    end：如果你的电脑是苹果的MAC系统的话，我很抱歉你看到了这里。。。。。。
