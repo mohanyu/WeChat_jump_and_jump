@@ -4,23 +4,29 @@ WeChat_jump_and_jump
 ------
 
 
-__如标题所言，可以用最简单的方式，实现微信跳一跳的刷分（即便是菜鸟小白）
-    不需要自己安装  python和环境配置、Android Debug Bridge、和任何的第三方库类，
-    36位和64位的系统通用，而且通过借助第三方模拟器，实现苹果用户的刷分__
-****
+__如标题所言，可以用最简单的方式，实现微信跳一跳的刷分
+（即便是菜鸟小白）
+* 不需要自己安装python
+- 不需要配置环境、
+- 不需要Android Debug Bridge
+- 以及任何的第三方库类
+- 36位和64位的系统通用
+* 且通过借助第三方模拟器，实现苹果用户的刷分__
+
 **本文贴心到什么程度呢？**
+
 what？都不会用GitHub下载本项目？:flushed:
 
-:sparkles:[点击通过网盘下载本程序](https://share.weiyun.com/59HxPQA "悬停显示"):sparkles:
+:sparkles:[点击通过网盘下载本程序](https://share.weiyun.com/59HxPQA "悬停显示"):heart:
 
 
 |Author|墨瀚宇|
 |---|---
 |E-mail|mohanyu6@gmail.com
 
-|2| [我的个人网站](http://www.mohanyu.club "悬停显示")
+  |2|     [我的个人网站](http://www.mohanyu.club "悬停显示")
 
-|3| [我的知乎](https://www.zhihu.com/people/mo-han-yu-10/activities)
+  |3|     [我的知乎](https://www.zhihu.com/people/mo-han-yu-10/activities)
 
 # 思路详解:
 * 通过Android Debug Bridge对手机截屏，
@@ -40,7 +46,10 @@ what？都不会用GitHub下载本项目？:flushed:
 ![4](https://github.com/mohanyu/Photos_URL_for_Readme/blob/master/img-for-wechatjump/6.jpg)
 ####
 * 通过USB调试，让手机模拟出按压时间，实现蓄力跳跃
-
+####
+具体代码实现请：
+:arrow_right:
+ [点击查看原项目地址](https://github.com/wangshub/wechat_jump_game)
 
        
 ## 刷分1000以下是很容易的，基本上通过断点续传就可以绕过监测，想刷2000分比较难，你需要做到:
